@@ -53,7 +53,7 @@ public class KongaTest {
         //. Input your username /email on the username field
         driver.findElement(By.id("username")).sendKeys("oluwatonioluwatomi@gmail.com");
         //. Input Your password in the password field
-        driver.findElement(By.id("password")).sendKeys("Tomi@123");
+        driver.findElement(By.id("password")).sendKeys("Tomi@12");
         //. Click on LogIN button
         driver.findElement(By.xpath("/html/body/div[1]/div/section/div[4]/section/section/div/aside/div[2]/div/form/div[3]/button")).click();
         //Test3. Verify that user successfully login with valid details and receive a  success message
